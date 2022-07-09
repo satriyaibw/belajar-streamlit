@@ -1,14 +1,7 @@
 import streamlit as st
-import pandas as pd
 
-"""
-# Biodata
-Berikut data alamat dari 4 mahasiswa:
-"""
+st.title("Dear Dayu Praba")
 
-df = pd.DataFrame({
-  'Nama Mahasiswa': ['bayu','april','ayumas','satriya'],
-  'Alamat': ['sukawati','kerambitan','kerambitan','perum bersemi']
-})
 
-df
+st.write("I love you :)")
+
